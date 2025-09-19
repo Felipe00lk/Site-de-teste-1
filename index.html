@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+ <html lang="pt-br">
+ <head> 
+   <meta charset="UTF-8">
+   <link rel="stylesheet" href="style.css">
+   <title> Testando site </title>
+</head>
+   <body>
+     <button id="escuro"> Modo escuro</button>
+     
+     <h1> Bem vindo ao meu site </h1>
+     <P> Olá, me chamo Felipe, tenho 19 anos, e estou aprendendo HTML,CSS e JAVASCRIPT, 
+ Ainda estou no começo, mas já aprendi bastante sobre HTML e CSS, porém JAVASCRIPT so aprendi a trocar cor de fundo e por caixinha de perguntas com (Prompt). </P>
+ <p class="linha">Estou na faculdade de ADS na UNIJORGE e estudo por conta própria desenvolvimento de front-end, no futuro planejo aprender e migrar para web segurança.</P> <br>
+   <P>Me deem ideias do que posso criar com isso, seugestões, dicas e tudo mais.</p>
+     <div id="formulario">
+       <fieldset> 
+         <legend> Formulário de Teste </legend> <BR>
+   <form>
+     <label for="nome"> Qual seu nome</label> 
+     <input type="text" id="nome" name="nome" placeholder="Seu nome" required> <BR><BR>
+     <label for="genero"> Qual seu gênero? </label>
+     <select id="genero" name="gênero" required>
+        <option value> Masculino </option>
+        <option value> Feminino </option>
+       <option value> Outro </option>
+     </select>
+             <br><br>
+             <label for="idade"> Qual sua idade?</label>
+             <input type="number" id="idade" name="idade" min=14 placeholder="EX:.18" required><BR><BR>
+     <label for="sugestao"> Deixe aqui uma dica,  sugestão se sites ou aprendizado</label> <br>
+     <textarea id="sugestao" name="sugestão" Placeholder="deixe sua opinião"> </textarea>
+       </fieldset>
+       </form>
+    <BR><BR>
+     
+     <button id="enviar"> Enviar </button>
+         </div>
+        <script src="script.js"></script>
+   </body>
+</html>
